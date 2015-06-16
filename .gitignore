@@ -27,3 +27,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+### WebStorm ###
+.idea/
+*.iml
+*.ipr
+*.iws
