@@ -27,6 +27,9 @@ define('DB_PASSWORD', 'root');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
+/** MySQL port */
+define('DB_PORT', '8889');
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -78,3 +81,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
+define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content');
