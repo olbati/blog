@@ -71,9 +71,14 @@ $table_prefix  = 'wp_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define( 'WP_DEBUG', false );
+
 
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
+/**
+* FIXME temporary solution, <blog> should be replaced by a dynamic mechanism that detects the current directory name
+*/
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/blog/wp-content' );
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -88,4 +93,4 @@ require_once(ABSPATH . 'wp-settings.php');
 * FIXME This is not working because the WP_CONTENT_URL constant has been already defined
 * The 'get_option' is defined while requiring 'wp-settings.php' .. before that line 'get_option' doesn't work :/
 */
-define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content');
+//define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content');
