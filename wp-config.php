@@ -73,6 +73,8 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
@@ -82,5 +84,8 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
+/**
+* FIXME This is not working because the WP_CONTENT_URL constant has been already defined
+* The 'get_option' is defined while requiring 'wp-settings.php' .. before that line 'get_option' doesn't work :/
+*/
 define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content');
