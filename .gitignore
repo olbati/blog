@@ -36,3 +36,4 @@ Temporary Items
 *.iws
 
 wp-content/debug.log
+dploy.yaml
