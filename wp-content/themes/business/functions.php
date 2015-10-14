@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 /**
  * business functions and definitions
  *
@@ -91,10 +92,10 @@ function load_fonts() {
 * @author FAT Media 
 */
 	
-add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
+add_action( 'wp_enqueue_scripts', 'business_enqueue_awesome' );
 
-function prefix_enqueue_awesome() {
-wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', array(), '4.2.0' ); 
+function business_enqueue_awesome() {
+wp_enqueue_style( 'business-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0' ); 
 }
 
 /**

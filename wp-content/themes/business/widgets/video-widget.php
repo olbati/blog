@@ -12,7 +12,7 @@ class business_Video_Widget extends WP_Widget {
 
 		$widget_ops = array('classname' => 'business_video_widget_widget', 'description' => __( 'Video for your sidebar.', 'business') );
 
-        parent::WP_Widget(false, $name = __('MT: Video Widget', 'business'), $widget_ops); 
+        parent::__construct(false, $name = __('MT: Video Widget', 'business'), $widget_ops); 
 
 		$this->alt_option_name = 'business_video_widget';
 

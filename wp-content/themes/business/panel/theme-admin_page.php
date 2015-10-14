@@ -254,127 +254,46 @@ add_action('admin_menu', 'business_setup_menu');
 		echo "</button></a></div></div>";
 		  
 	    
-		echo ' <div class="grid grid-pad"><div class="col-1-1"><h1 style="padding-bottom: 30px; text-align: center;">Want more themes? Check out our collections.</h1></div>
-        	<a href="http://modernthemes.net/theme-collections/blog-magazine-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-book"></i>
-                <h5>Blog & Magazine</h5></span></div></div></div>  
-            </div> 
-            </a>
-            <a href="http://modernthemes.net/theme-collections/business-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-users"></i>
-                <h5>Business</h5></span></div></div></div> 
-            </div> 
-            </a>
-           <a href="http://modernthemes.net/theme-collections/creative-portfolio-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-pencil-square-o"></i>
-                <h5>Creative & Portfolio</h5></span></div></div></div> 
-            </div>   
-            </a>  
-            <a href="http://modernthemes.net/theme-collections/ecommerce-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-shopping-cart"></i>
-                <h5>eCommerce</h5></span></div></div></div>  
-            </div>
-            </a>
-            <a href="http://modernthemes.net/theme-collections/education-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-graduation-cap"></i>
-                <h5>Education</h5></span></div></div></div>   
-            </div>
-            </a>
-           <a href="http://modernthemes.net/theme-collections/fitness-sport-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-soccer-ball-o"></i>
-                <h5>Fitness & Sports</h5></span></div></div></div> 
-            </div>   
-            </a>
-             <a href="http://modernthemes.net/theme-collections/restaurant-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-cutlery"></i>
-                <h5>Food & Restaurant</h5></span></div></div></div>   
-            </div>
-            </a>
-            <a href="http://modernthemes.net/theme-collections/health-beauty-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-smile-o"></i>
-                <h5>Health & Beauty</h5></span></div></div></div> 
-            </div>
-            </a>  
-            
-            
-             <a href="http://modernthemes.net/theme-collections/hotel-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-building-o"></i>
-                <h5>Hotel</h5></span></div></div></div>   
-            </div>
-            </a>
-           <a href="http://modernthemes.net/theme-collections/medical-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-stethoscope"></i>
-                <h5>Medical</h5></span></div></div></div> 
-            </div>   
-            </a>
-            <a href="http://modernthemes.net/theme-collections/music-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-music"></i>
-                <h5>Music</h5></span></div></div></div> 
-            </div>
-            </a> 
-            
-            
-             <a href="http://modernthemes.net/theme-collections/photography-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-camera"></i>
-                <h5>Photography</h5></span></div></div></div>   
-            </div>
-            </a>
-            <a href="http://modernthemes.net/theme-collections/real-estate-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-home"></i>
-                <h5>Real Estate</h5></span></div></div></div> 
-            </div>
-            </a> 
-            
-            
-           <a href="http://modernthemes.net/theme-collections/travel-wordpress-themes/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-send-o"></i>
-                <h5>Travel</h5></span></div></div></div> 
-            </div>   
-            </a>
-            <a href="http://modernthemes.net/theme-collections/one-page/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-list-alt"></i>
-                <h5>One Page</h5></span></div></div></div> 
-            </div>
-            </a> 
-            <a href="http://modernthemes.net/theme-collections/niche/" target="_blank">
-        	<div class="col-1-4 med-break"><div class="custom-box">
-    			<div class="custom-content home-collection"><div><span>
-                <i class="fa fa-thumb-tack"></i>
-                <h5>Niche Markets</h5></span></div></div></div>
-            </div>
-            </a> 
-        </div>';
+		echo '<div class="grid grid-pad senswp"><div class="col-1-1"><h1 style="padding-bottom: 30px; text-align: center;">';
+		printf( __('Premium Membership. Premium Experience.', 'business' )); 
+		echo '</h1></div>';
 		
+        echo '<div class="col-1-4"><i class="fa fa-cogs"></i><h4>'; 
+		printf( __('Plugin Compatibility', 'business' ));
+		echo '</h4>';
+		
+        echo '<p>';
+		printf( __('Use our new free plugins with this theme to add functionality for things like projects, clients, team members and more. Compatible with all premium themes!', 'business' ));
+		echo '</p></div>';
+		
+		echo '<div class="col-1-4"><i class="fa fa-desktop"></i><h4>'; 
+        printf( __('Agency Designed Themes', 'business' ));
+		echo '</h4>';
+		
+        echo '<p>';
+		printf( __('Look as good as can be with our new premium themes. Each one is agency designed with modern styles and professional layouts.', 'business' ));
+		echo '</p></div>'; 
+		
+        echo '<div class="col-1-4"><i class="fa fa-users"></i><h4>';
+        printf( __('Membership Options', 'business' ));
+		echo '</h4>';
+		
+        echo '<p>';
+		printf( __('We have options to fit every budget. Choose between a single theme, or access to all current and future themes for a year, or forever!', 'business' ));
+		echo '</p></div>'; 
+		
+		echo '<div class="col-1-4"><i class="fa fa-calendar"></i><h4>';
+		printf( __( 'Access to New Themes', 'business' )); 
+		echo '</h4>';
+		
+        echo '<p>';
+		printf( __( 'New themes added monthly! When you purchase a premium membership you get access to all premium themes, with new themes added monthly.', 'business' ));   
+		echo '</p></div>';
+		
+		
+		echo '<div class="grid grid-pad" style="border-bottom: 1px solid #ccc; padding-bottom: 50px; margin-bottom: 30px;"><div class="col-1-1"><a href="https://modernthemes.net/premium-wordpress-themes/" target="_blank"><button class="pro">'; 
+		printf( __( 'Get Premium Membership', 'business' )); 
+		echo '</button></a></div></div>'; 
 	
 		 
     }

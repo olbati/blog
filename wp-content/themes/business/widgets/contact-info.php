@@ -12,7 +12,7 @@ class business_Contact_Info extends WP_Widget {
 
 		$widget_ops = array('classname' => 'business_contact_info_widget', 'description' => __( 'Display your contact info', 'business') );
 
-        parent::WP_Widget(false, $name = __('MT: Contact Info Widget', 'business'), $widget_ops);
+        parent::__construct(false, $name = __('MT: Contact Info Widget', 'business'), $widget_ops);
 
 		$this->alt_option_name = 'business_contact_info';
 

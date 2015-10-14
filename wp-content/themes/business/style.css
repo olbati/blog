@@ -4,7 +4,7 @@ Theme URI: http://modernthemes.net/demo/business
 Author: Modern Themes
 Author URI: http://modernthemes.net
 Description: A theme for the modern business
-Version: 1.25
+Version: 1.27.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: business
@@ -411,9 +411,7 @@ a {
 	color: #0cbbfc;
 }
  
-a:hover,
-a:focus,
-a:active {
+a:hover {
 	color: #09afed;
 }
 
