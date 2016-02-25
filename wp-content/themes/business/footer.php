@@ -7,41 +7,17 @@
  * @package business
  */
 ?>
- 
-   <?php if( get_theme_mod( 'active_cta_bottom' ) == '') : ?> 
-     
-   <div class="home-cta"> 
-    	<div class="grid grid-pad"> 
-    		
-            <?php if ( get_theme_mod( 'cta_text_bottom' ) ) : ?>
-            
-            	<div class="col-10-12">
-            		<h4><?php echo esc_html( get_theme_mod( 'cta_text_bottom' )); ?></h4> 
-            	</div><!-- col-10-12 -->
-           	
-            	<div class="col-2-12 push-right">
-            
-            		<a href="<?php echo esc_url( get_page_link(get_theme_mod('business_ctalink_url_bottom')))?>">
-            		<button><?php echo esc_html( get_theme_mod( 'cta_button_text_bottom' )); ?></button>
-            		</a>
-            
-            	</div><!-- col-2-12 -->
-            
-            <?php else : ?>   
-			<?php endif; ?>
-            
-    	</div><!-- grid -->
-    </div> <!-- home-cta --> 
-    
-    <?php else : ?>  
-	<?php endif; ?>
-	<?php // end if ?> 
 
 	</section><!-- #content -->
     
 	<footer id="colophon" class="site-footer" role="contentinfo"> 
     	<div class="grid grid-pad">
-    		
+    		 <div class="col-1-3"><b>Contact:</b> <br>154 rue du Faubourg Saint-Antoine <br>75012 Paris, France</div>
+			 
+			  <div class="col-1-3"><b>General information:</b><br> contact@olbati.com<br>Employment: hr@olbati.com</div>
+			 
+			  <div class="col-1-3"><div>Phone: +33 (0)9 51 24 72 00<br>Fax: +33 (0)9 56 24 72 00</div><div><?php echo business_media_icons(); ?></div></div>
+			 
 			<?php if ( is_active_sidebar('footer_column_1') ) : ?>
                 <div class="col-1-4">
     				<?php dynamic_sidebar('footer_column_1'); ?>
@@ -71,12 +47,12 @@
     	<div class="grid grid-pad">
 			<div class="site-info col-1-1"></span>
          		
-                <div><?php echo business_media_icons(); ?></div>
+                
                      
 			 	<?php if ( get_theme_mod( 'business_footerid' ) ) : ?> 
         			<?php echo esc_html( get_theme_mod( 'business_footerid' )); ?> 
 				<?php else : ?>
-					<?php printf( __( 'Theme: %1$s by %2$s', 'business' ), 'business', '<a href="http://modernthemes.net" rel="designer">modernthemes.net</a>' ); ?> 
+					<!--<?php printf( __( 'Theme: %1$s by %2$s', 'business' ), 'business', '<a href="http://modernthemes.net" rel="designer">modernthemes.net</a>' ); ?> -->
 				<?php endif; ?> 
                      
 			</div><!-- .site-info -->
