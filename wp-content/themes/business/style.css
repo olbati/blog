@@ -795,7 +795,8 @@ a:hover {
 }
 .site-footer {
     background: none repeat scroll 0 0 #1d2333;
-    color: #b3b3b3;
+   	color: #b3b3b3;
+    font-size: 85%;
     padding: 50px 0 10px;
 }
 .site-footer h5 {
