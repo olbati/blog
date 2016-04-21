@@ -760,7 +760,6 @@ function business_theme_customizer( $wp_customize ) {
 	
 	// Move sections up 
 	$wp_customize->get_section('static_front_page')->priority = 10; 
-    $wp_customize->get_section('nav')->priority = 11;
 
 	// Enqueue scripts for real-time preview
 	wp_enqueue_script( 'business_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
