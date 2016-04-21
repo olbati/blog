@@ -6,7 +6,7 @@
 function business_social_media_array() { 
  
     // store social site names in array
-    $social_sites = array('twitter', 'facebook', 'google-plus', 'flickr', 'pinterest', 'youtube', 'vimeo', 'tumblr', 'dribbble', 'rss', 'linkedin', 'instagram'); 
+    $social_sites = array('twitter', 'facebook', 'google-plus', 'flickr', 'pinterest', 'youtube', 'vimeo', 'tumblr', 'dribbble', 'rss', 'linkedin', 'instagram', 'snapchat', 'vine', 'vk' );  
  
     return $social_sites;  
 }

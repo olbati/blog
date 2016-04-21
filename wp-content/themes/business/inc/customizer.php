@@ -350,19 +350,19 @@ function business_theme_customizer( $wp_customize ) {
 	) ); 
 
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'cta_text', array(
-		'label'    => __( 'Call-to-action display text', 'business' ),
+		'label'    => __( 'Call-to-Action display text', 'business' ),
 		'section'  => 'business_home_section',  
 		'settings' => 'cta_text',
 		'priority'   => 5
 	) ) );
 	
 	// CTA Button Text
-	$wp_customize->add_setting( 'cta_button_text', array( 
+	$wp_customize->add_setting( 'cta_button_text', array(  
 		'sanitize_callback' => 'business_sanitize_text', 
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'cta_button_text', array( 
-		'label'    => __( 'Call-to-action button text', 'business' ),
+		'label'    => __( 'Call-to-Action button text', 'business' ),
 		'section'  => 'business_home_section',  
 		'settings' => 'cta_button_text',
 		'priority'   => 6
@@ -630,9 +630,9 @@ function business_theme_customizer( $wp_customize ) {
 	
 	// Bottom CTA
 	$wp_customize->add_section( 'business_bottom_cta' , array(  
-	    'title'       => __( 'Before Footer Call-to-action', 'business' ),
+	    'title'       => __( 'Before Footer Call-to-Action', 'business' ),
 	    'priority'    => 32, 
-	    'description' => __( 'Customize the call-to-action before your footer', 'business' ) 
+	    'description' => __( 'Customize the Call-to-Action before your footer', 'business' ) 
 	) );
 	
 	$wp_customize->add_setting('active_cta_bottom',
@@ -656,7 +656,7 @@ function business_theme_customizer( $wp_customize ) {
 	) ); 
 
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'cta_text_bottom', array(
-		'label'    => __( 'Call-to-action display text', 'business' ),
+		'label'    => __( 'Call-to-Action display text', 'business' ),
 		'section'  => 'business_bottom_cta',  
 		'settings' => 'cta_text_bottom',
 		'priority'   => 2
@@ -668,7 +668,7 @@ function business_theme_customizer( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'cta_button_text_bottom', array( 
-		'label'    => __( 'Call-to-action button text', 'business' ),
+		'label'    => __( 'Call-to-Action button text', 'business' ),
 		'section'  => 'business_bottom_cta',  
 		'settings' => 'cta_button_text_bottom',
 		'priority'   => 3 
@@ -682,7 +682,7 @@ function business_theme_customizer( $wp_customize ) {
 	)); 
 	
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'business_cta_url_bottom', array( 
-    'label' => __( 'Before Footer Call-to-action URL', 'business' ), 
+    'label' => __( 'Before Footer Call-to-Action URL', 'business' ), 
     'section' => 'business_bottom_cta', 
 	'type' => 'dropdown-pages',
     'settings' => 'business_ctalink_url_bottom',
@@ -760,6 +760,7 @@ function business_theme_customizer( $wp_customize ) {
 	
 	// Move sections up 
 	$wp_customize->get_section('static_front_page')->priority = 10; 
+    $wp_customize->get_section('nav')->priority = 11;
 
 	// Enqueue scripts for real-time preview
 	wp_enqueue_script( 'business_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );

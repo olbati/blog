@@ -4,7 +4,7 @@ Theme URI: http://modernthemes.net/demo/business
 Author: Modern Themes
 Author URI: http://modernthemes.net
 Description: A theme for the modern business
-Version: 1.27.1
+Version: 1.27.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: business
@@ -16,6 +16,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Business is built with Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc. and includes Simple Grid (https://github.com/ThisIsDallas/Simple-Grid) by ThisisDallas, Sequence (https://github.com/IanLunn/Sequence) by Ian Lunn, Custom Meta Boxes by WebDevStudios and Font Awesome (http://fortawesome.github.io/Font-Awesome/) by Dave Gandy. 
 
 Business incorporates code from My Custom CSS Plugin by Salvatore Noschese - DarkWolf, 2013. 
+
+Use Child Theme by FacetWP Copyright (c) 2016 Matt Gibbs (mgibbs189).
+https://github.com/FacetWP/use-child-theme/
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -795,8 +798,7 @@ a:hover {
 }
 .site-footer {
     background: none repeat scroll 0 0 #1d2333;
-   	color: #b3b3b3;
-    font-size: 85%;
+    color: #b3b3b3;
     padding: 50px 0 10px;
 }
 .site-footer h5 {
@@ -997,7 +999,7 @@ a:hover {
   transition: background-color 500ms ease-out 1s; 
 }
 
-.social-media-icons .fa:hover { color: #FFF; }
+.social-media-icons .fa:hover { color: #FFFFFF; }
 
 .social {
   margin: 1rem 0; 

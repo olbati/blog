@@ -58,7 +58,12 @@
 			
             	</div><!-- site-branding --> 
 
-			
+				<div class="col-9-12 mobile-col-1-3"> 	
+                    <nav id="site-navigation" class="main-navigation" role="navigation">
+						<a id="showLeft" class="mobileNav push-right"><i class="fa fa-bars"></i></a>
+            			<div id="main-nav"><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></div>
+					</nav><!-- #site-navigation -->       
+                </div><!-- col-9-12 -->
     
     		</div><!-- grid -->
 		</header><!-- #masthead -->
