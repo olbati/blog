@@ -82,6 +82,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define('AUTOMATIC_UPDATER_DISABLED', true);
+define('DISALLOW_FILE_MODS', true);
+
 //define('WP_HOME', 'http://localhost:8888/wp-core');
 //define('WP_SITEURL', 'http://localhost:8888/wp-core');
 define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
