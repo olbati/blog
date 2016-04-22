@@ -16,7 +16,7 @@ get_header(); ?>
 	<header class="entry-header">
  		<div class="grid grid-pad">   
     		<div class="col-1-1">
-				<h1 class="entry-title">From the blog...</h1>
+				<h1 class="entry-title">We are passionate Software Craftsmans adding value to business.</h1>
         	</div>
     	</div>
 	</header><!-- .entry-header -->
