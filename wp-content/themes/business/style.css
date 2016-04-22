@@ -192,7 +192,7 @@ dfn, cite, em, i {
 }
 blockquote {
     background: none repeat scroll 0 0 #fff;
-    border-left: 5px solid #0cbbfc;
+    border-left: 5px solid #2980b9;
 	border-radius: 0px 3px 3px 0px;
     color: #999;
     font-style: italic;
@@ -250,7 +250,7 @@ big {
 	text-align: center;
 }
 .light-blue {
-	color: #0cbbfc;
+	color: #2980b9;
 	margin-bottom: 5px;
 }
 
@@ -315,8 +315,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    background: none repeat scroll 0 0 #0cbbfc;
-    border: 1px solid #0cbbfc;
+    background: none repeat scroll 0 0 #2980b9;
+    border: 1px solid #2980b9;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
@@ -330,8 +330,8 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #09afed;
-	background: #09afed;
+	border-color: #2980b9;
+	background: #2980b9;
     -webkit-transition: all 0.25s ease-out 0s;
     -moz-transition: all 0.25s ease-out 0s;
     -o-transition: all 0.25s ease-out 0s;
@@ -346,8 +346,8 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border-color: #09afed;
-	background: #09afed;
+	border-color: #2980b9;
+	background: #2980b9;
     -webkit-transition: all 0.25s ease-out 0s;
     -moz-transition: all 0.25s ease-out 0s;
     -o-transition: all 0.25s ease-out 0s;
@@ -411,11 +411,11 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: #0cbbfc;
+	color: #2980b9;
 }
- 
+
 a:hover {
-	color: #09afed;
+	color: #2980b9;
 }
 
 /*--------------------------------------------------------------
@@ -462,14 +462,14 @@ a:hover {
 }
 .main-navigation ul ul li {
     background: none repeat scroll 0 0 #f8f8f8;
-    border-left: 5px solid #0cbbfc;
+    border-left: 5px solid #2980b9;
 }
 .main-navigation ul ul li:nth-child(2n) {
     background: none repeat scroll 0 0 #f1f1f1;
     border-left: 5px solid #212737;
 }
 .main-navigation li:hover > a {
-	color: #0cbbfc;
+	color: #2980b9;
 }
 .main-navigation ul ul :hover > a {
 }
@@ -483,7 +483,7 @@ a:hover {
 }
 .main-navigation .current_page_item a,
 .main-navigation .current-menu-item a {
-	color: #0cbbfc;
+	color: #2980b9;
 }
 /* Small menu */
 .side-toggle {
@@ -492,7 +492,7 @@ a:hover {
 #mobile-header {
     display: none;
 }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
 	.side-toggle {
 		color: #404040;
 		background: none;
@@ -542,7 +542,7 @@ a:hover {
 	overflow: hidden;
 }
 .comment-navigation .nav-previous, .paging-navigation .nav-previous, .post-navigation .nav-previous {
-    background: none repeat scroll 0 0 #0cbbfc;
+    background: none repeat scroll 0 0 #2980b9;
     float: left;
     font-size: 14px;
     font-style: italic;
@@ -554,7 +554,7 @@ a:hover {
 	border-radius: 3px;
 }
 .comment-navigation .nav-next, .paging-navigation .nav-next, .post-navigation .nav-next {
-    background: none repeat scroll 0 0 #0cbbfc;
+    background: none repeat scroll 0 0 #2980b9;
     float: right;
     font-size: 14px;
     font-style: italic;
@@ -701,7 +701,7 @@ a:hover {
 	font-size: 20px;
 }
 .services .fa {
-	color: #0cbbfc;
+	color: #2980b9;
 	font-size: 30px;
 	margin-bottom: 10px;
 }
@@ -721,7 +721,7 @@ a:hover {
     transition: all 0.25s ease-out 0s;
 }
 .home-entry-title:hover {
-	color: #0cbbfc;
+	color: #2980b9;
     -webkit-transition: all 0.25s ease-out 0s;
     -moz-transition: all 0.25s ease-out 0s;
     -o-transition: all 0.25s ease-out 0s;
@@ -739,7 +739,7 @@ a:hover {
 .home-entry-title:after {
 	display: block;
 	content: " ";
-	border-bottom: 6px solid #0cbbfc;
+	border-bottom: 6px solid #2980b9;
 	width: 65px;
 	position: absolute;
 	bottom: 0;
@@ -762,7 +762,7 @@ a:hover {
     transition: all 0.25s ease-out 0s;
 }
 .home-blog .entry-footer:hover {
-	background: #0cbbfc;
+	background: #2980b9;
 	color: #fff;
     -webkit-transition: all 0.25s ease-out 0s;
     -moz-transition: all 0.25s ease-out 0s;
@@ -772,7 +772,7 @@ a:hover {
 }
 .home-blog .entry-footer:hover > p span {
 	color: #fff;
-} 
+}
 .home-blog .entry-footer p {
 	margin: 0;
 	padding: 15px;
@@ -782,7 +782,7 @@ a:hover {
 }
 .home-blog .entry-footer span {
 	float: right;
-	color: #0cbbfc;
+	color: #2980b9;
 	font-size: 18px;
 	line-height: 16px;
 }
@@ -850,15 +850,15 @@ a:hover {
 .home-point {
 	padding-top: 8px;
 }
-.entry-header { 
-	background: #0cbbfc;
+.entry-header {
+	background: #2980b9;
 }
-.entry-title {	
+.entry-title {
 	color: #fff;
-	font-weight: 200; 
+	font-weight: 200;
 	font-size: 32px;
 	line-height: 34px;
-	padding: 6px 0 15px; 
+	padding: 6px 0 15px;
 }
 .index-entry-header .entry-title {
 	margin-bottom: 0;
@@ -892,7 +892,7 @@ a:hover {
 .member-entry-title:after {
 	display: block;
 	content: " ";
-	border-bottom: 6px solid #0cbbfc;
+	border-bottom: 6px solid #2980b9;
 	width: 65px;
 	position: absolute;
 	bottom: 0;
@@ -927,7 +927,7 @@ a:hover {
 .client-entry-title:after {
 	display: block;
 	content: " ";
-	border-bottom: 6px solid #0cbbfc;
+	border-bottom: 6px solid #2980b9;
 	width: 65px;
 	position: absolute;
 	bottom: -5px;
@@ -955,7 +955,7 @@ a:hover {
 .works-entry-title:after {
 	display: block;
 	content: " ";
-	border-bottom: 6px solid #0cbbfc;
+	border-bottom: 6px solid #2980b9;
 	width: 65px;
 	position: absolute;
 	bottom: -5px;
@@ -975,18 +975,18 @@ a:hover {
 }
 
 .social-media-icons {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   margin: 0 auto;
-  text-align: left; 
-} 
+  text-align: center;
+}
 
 .social-media-icons li {
   color: #fff;
   display: inline-block;
   float: none;
-  list-style: none outside none; 
-} 
+  list-style: none outside none;
+}
 
 .social-media-icons .fa {
   font-size: 1.75em;
@@ -994,18 +994,24 @@ a:hover {
   -webkit-transition: background-color 500ms ease-out 1s;
   -moz-transition: background-color 500ms ease-out 1s;
   -o-transition: background-color 500ms ease-out 1s;
-  transition: background-color 500ms ease-out 1s; 
+  transition: background-color 500ms ease-out 1s;
 }
 
-.social-media-icons .fa:hover { color: #FFFFFF; }
+.social-media-icons .fa:hover {
+    color: #2980b9;
+}
+
+.social-media-icons a {
+    color: #b3b3b3;
+}
 
 .social {
-  margin: 1rem 0; 
+  margin: 1rem 0;
 }
 
 /**** contact form *****/
 
-#contactForm ul { 
+#contactForm ul {
   list-style: none outside none;
 }
 
@@ -1020,13 +1026,13 @@ ul.contact-form li {
 }
 ul.contact-form input {
 	border-radius: 4px;
-	width:100%; 
+	width:100%;
 }
 li.contact-name {
-	width: 49%; 
+	width: 49%;
 	margin-bottom: 20px;
 	}
-	
+
 li.contact-email {
 	width: 49%;
 	margin-bottom: 20px;
@@ -1034,14 +1040,14 @@ li.contact-email {
 li.contact-comments {
 	width: 97.9%;
 }
-li.contact-comments textarea { 
+li.contact-comments textarea {
 	padding: 8px 15px;
 	border-radius: 4px;
 }
- 
+
  input[type="submit"].contact-submit {
-	border-radius: 2px; 
-	margin-top: 20px; 
+	border-radius: 2px;
+	margin-top: 20px;
 	color: #fff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -1247,8 +1253,8 @@ object {
 
   #sequence .bg {
     opacity: 0;
-    z-index: 1; 
-	position: asbolute;
+    z-index: 1;
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -1264,7 +1270,7 @@ object {
     -ms-transition-duration: 1.3s;
     -o-transition-duration: 1.3s;
     transition-duration: 1.3s; }
-  #sequence .animate-out .bg { 
+  #sequence .animate-out .bg {
     opacity: 0;
     z-index: 1;
     -webkit-transform: scale(1.2);
@@ -1276,16 +1282,16 @@ object {
     -moz-transition-duration: 1.3s;
     -ms-transition-duration: 1.3s;
     -o-transition-duration: 1.3s;
-    transition-duration: 1.3s; }	
-	
-  #sequence .slide-title { 
+    transition-duration: 1.3s; }
+
+  #sequence .slide-title {
     opacity: 0;
     z-index: 10;
 	text-align: center;
 	right: 150%;
 	bottom: 50%;
 	width: 100%;
-	padding: 15px 20px 0px; 
+	padding: 15px 20px 0px;
 	font-size: 60px;
 	line-height: 60px;
     font-weight: 200;
@@ -1295,7 +1301,7 @@ object {
     -ms-transition-duration: 1.3s;
     -o-transition-duration: 1.3s;
     transition-duration: 1.3s;
-	} 
+	}
   #sequence .animate-in .slide-title {
     opacity: 1;
     z-index: 10;
@@ -1321,9 +1327,9 @@ object {
     -ms-transition-duration: 1.3s;
     -o-transition-duration: 1.3s;
     transition-duration: 1.3s; }
-	
-	   
-   #sequence .slide-description {  
+
+
+   #sequence .slide-description {
 	text-align: center;
    font-size: 20px;
     font-weight: 600;
@@ -1364,9 +1370,9 @@ object {
     -ms-transition-duration: 1.3s;
     -o-transition-duration: 1.3s;
     transition-duration: 1.3s; }
-	
-	#sequence .slide-arrow { 
-	background: #0cbbfc;
+
+	#sequence .slide-arrow {
+	background: #2980b9;
 	border-radius: 5px;
 	color: #fff;
     opacity: 0;
