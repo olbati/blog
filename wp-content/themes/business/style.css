@@ -796,7 +796,7 @@ a:hover {
 .site-footer {
     background: none repeat scroll 0 0 #1d2333;
     color: #b3b3b3;
-    padding: 50px 0 10px;
+    padding: 30px 0 10px;
 }
 .site-footer h5 {
     color: #fff;
@@ -804,7 +804,8 @@ a:hover {
 .site-info {
     font-size: 13px;
     font-weight: 400;
-    text-transform: uppercase;
+	text-align: center;
+    margin-top: 20px;
 }
 .entry-meta {
 	background: #dddddd;

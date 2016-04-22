@@ -7,77 +7,38 @@
  * @package business
  */
 ?>
- 
-   <?php if( get_theme_mod( 'active_cta_bottom' ) == '') : ?> 
-     
-   <div class="home-cta"> 
-    	<div class="grid grid-pad"> 
-    		
-            <?php if ( get_theme_mod( 'cta_text_bottom' ) ) : ?>
-            
-            	<div class="col-10-12">
-            		<h4><?php echo esc_html( get_theme_mod( 'cta_text_bottom' )); ?></h4> 
-            	</div><!-- col-10-12 -->
-           	
-            	<div class="col-2-12 push-right">
-            
-            		<a href="<?php echo esc_url( get_page_link(get_theme_mod('business_ctalink_url_bottom')))?>">
-            		<button><?php echo esc_html( get_theme_mod( 'cta_button_text_bottom' )); ?></button>
-            		</a>
-            
-            	</div><!-- col-2-12 -->
-            
-            <?php else : ?>   
-			<?php endif; ?>
-            
-    	</div><!-- grid -->
-    </div> <!-- home-cta --> 
-    
-    <?php else : ?>  
-	<?php endif; ?>
-	<?php // end if ?> 
 
 	</section><!-- #content -->
     
 	<footer id="colophon" class="site-footer" role="contentinfo"> 
-    	<div class="grid grid-pad">
-    		
-			<?php if ( is_active_sidebar('footer_column_1') ) : ?>
-                <div class="col-1-4">
-    				<?php dynamic_sidebar('footer_column_1'); ?>
-                </div><!-- col-1-4 -->   
-    		<?php endif; ?>
-   
-    		<?php if ( is_active_sidebar('footer_column_2') ) : ?>
-                <div class="col-1-4">
-    				<?php dynamic_sidebar('footer_column_2'); ?>
-                </div><!-- col-1-4 -->    
-    		<?php endif; ?> 
-    	  		
-    		<?php if ( is_active_sidebar('footer_column_3') ) : ?>
-                <div class="col-1-4"> 
-    				<?php dynamic_sidebar('footer_column_3'); ?>    
-    			</div><!-- col-1-4 -->
-			<?php endif; ?>
-    		
-    		<?php if ( is_active_sidebar('footer_column_4') ) : ?>
-                <div class="col-1-4">
-    				<?php dynamic_sidebar('footer_column_4'); ?>  
-    			</div><!-- col-1-4 --> 
-			<?php endif; ?>
-            
+        <div class="grid grid-pad">
+
+            <div class="col-1-4">
+				We are passionate Software Craftsmans adding value to business. We keep learning and improving our skills to provide the best to our clients.
+			</div><!-- col-1-3 -->
+
+	        <div class="col-1-4">
+				<div>Some of our passions are Java, Javascript, Craftsmanship, Big Data, DevOps, Agile and the Cloud. We are hiring passionate consultants. More details <a href="http://www.olbati.com/#careers">here</a>.</div>
+			</div><!-- col-1-3 -->
+
+			<div class="col-1-4">
+				OLBATI<br/>14 rue des Immeubles Industriels<br/>75011 Paris
+			</div><!-- col-1-3 -->
+
+			<div class="col-1-4">
+				contact@olbati.com<br/>Phone: +33 (0) 9 54 14 29 43<br/>Fax: +33 (0) 9 57 56 74 82
+			</div><!-- col-1-3 -->
+
     	</div><!-- grid -->
         
     	<div class="grid grid-pad">
 			<div class="site-info col-1-1"></span>
          		
                 <div><?php echo business_media_icons(); ?></div>
-                     
-			 	<?php if ( get_theme_mod( 'business_footerid' ) ) : ?> 
-        			<?php echo esc_html( get_theme_mod( 'business_footerid' )); ?> 
-				<?php else : ?>
-					<?php printf( __( 'Theme: %1$s by %2$s', 'business' ), 'business', '<a href="http://modernthemes.net" rel="designer">modernthemes.net</a>' ); ?> 
-				<?php endif; ?> 
+
+				<div>
+					Copyright &copy; 2016 <a href="http://www.olbati.com">OLBATI</a>. Designed and developed with lots of passion by <a href="http://www.olbati.com">OLBATI</a>.
+				</div>
                      
 			</div><!-- .site-info -->
     	</div><!-- grid -->

@@ -6,7 +6,7 @@
 function business_social_media_array() { 
  
     // store social site names in array
-    $social_sites = array('twitter', 'facebook', 'google-plus', 'flickr', 'pinterest', 'youtube', 'vimeo', 'tumblr', 'dribbble', 'rss', 'linkedin', 'instagram', 'snapchat', 'vine', 'vk' );  
+    $social_sites = array('twitter', 'github', 'slideshare', 'vimeo', 'linkedin', 'google-plus', 'facebook', 'flickr', 'pinterest', 'youtube', 'tumblr', 'dribbble', 'rss', 'instagram', 'snapchat', 'vine', 'vk');
  
     return $social_sites;  
 }
@@ -60,12 +60,8 @@ function business_media_icons() {
         echo "<ul class='social-media-icons'>";
         foreach ($active_sites as $active_site) {?>
             <li>
-                <a href="<?php echo get_theme_mod( $active_site ); ?>">
-                    <?php if( $active_site == "vimeo") { ?>
-                        <i class="fa fa-<?php echo $active_site; ?>-square"></i> <?php
-                    } else { ?>
-                        <i class="fa fa-<?php echo $active_site; ?>"></i><?php
-                    } ?>
+                <a href="<?php echo get_theme_mod( $active_site ); ?>" target="_blank">
+                    <i class="fa fa-<?php echo $active_site; ?>"></i>
                 </a>
             </li><?php
         }
