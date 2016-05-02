@@ -44,7 +44,7 @@
 		<header id="masthead" class="site-header" role="banner">
     		<div class="grid grid-pad head-overflow">
 				
-                <div class="site-branding col-3-12 mobile-col-2-3">
+                <div class="site-branding col-1-1">
         			
 					<?php if ( get_theme_mod( 'business_logo' ) ) : ?>  
     				<div class="site-logo"> 
@@ -58,8 +58,6 @@
 			
             	</div><!-- site-branding --> 
 
-			
-    
     		</div><!-- grid -->
 		</header><!-- #masthead -->
     

@@ -16,13 +16,19 @@ get_header(); ?>
 	<header class="entry-header">
  		<div class="grid grid-pad">   
     		<div class="col-1-1">
-				<h1 class="entry-title">From the blog...</h1>
+				<h1 class="entry-title">We are passionate Software Craftsmans adding value to business.</h1>
         	</div>
     	</div>
 	</header><!-- .entry-header -->
 
 	<div class="grid grid-pad">
-		<div id="primary" class="content-area blog-article col-9-12">
+        
+        <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+        	<div id="primary" class="content-area blog-article col-9-12">
+    	<?php else: ?>
+    		<div id="primary" class="content-area blog-article col-1-1"> 
+    	<?php endif; ?>
+        
 			<main id="main" class="site-main" role="main">
 
 			<?php if ( have_posts() ) : ?>
@@ -51,6 +57,9 @@ get_header(); ?>
 			</main><!-- #main -->
 		</div><!-- #primary -->
 
-	<?php get_sidebar(); ?>
+		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?> 
+    		<?php get_sidebar(); ?>
+    	<?php endif; ?>
+        
 	</div><!-- grid -->
 	<?php get_footer(); ?>

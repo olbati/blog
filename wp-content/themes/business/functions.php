@@ -7,10 +7,13 @@
 */ 
 
 /**
- * Theme update
- */
-require_once('inc/wp-updates-theme.php');
-new WPUpdatesThemeUpdater_934( 'http://wp-updates.com/api/2/theme', basename( get_template_directory() ) ); 
+ * register the theme update
+ */ 
+require 'theme-updates/theme-update-checker.php';
+$MyThemeUpdateChecker = new ThemeUpdateChecker(
+'business', //Theme slug. Usually the same as the name of its directory.
+'http://modernthemes.net/updates/?action=get_metadata&slug=business' //Metadata URL.
+); 
 
 /**
  * Set the content width based on the theme's design and stylesheet.
@@ -95,7 +98,7 @@ function load_fonts() {
 add_action( 'wp_enqueue_scripts', 'business_enqueue_awesome' );
 
 function business_enqueue_awesome() {
-wp_enqueue_style( 'business-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), '4.4.0' ); 
+wp_enqueue_style( 'business-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css', array(), '4.6.0' );
 }
 
 /**
@@ -290,6 +293,11 @@ require get_template_directory() . '/inc/socialicons.php';
  */ 
 require get_template_directory() . "/widgets/contact-info.php";
 require get_template_directory() . "/widgets/video-widget.php"; 
+
+/**
+ * Activate for a child theme.  Always use a child theme to make edits.
+ */
+require_once( trailingslashit( get_template_directory() ) . '/inc/use-child-theme.php' );
 
 /**
  * Load Jetpack compatibility file.

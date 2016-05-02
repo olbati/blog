@@ -12,48 +12,33 @@
     
 	<footer id="colophon" class="site-footer" role="contentinfo"> 
         <div class="grid grid-pad">
-            <div class="col-1-3">We are passionate Software Craftsmans adding value to business. We keep learning and improving our skills to provide the best to our clients. Some of our passions are Java & Web development, Agile, Craftsmanship, DevOps and Big Data.</div>
-			 
-	        <div class="col-1-3"><b>OLBATI</b><br/>14 rue des Immeubles Industriels<br/>75011 Paris<br/>contact@olbati.com<br/>Phone: +33 (0) 9 54 14 29 43<br/>Fax: +33 (0) 9 57 56 74 82</div>
-			 
-			<div class="col-1-3"><div><?php echo business_media_icons(); ?></div>
-			 
-			<?php if ( is_active_sidebar('footer_column_1') ) : ?>
-                <div class="col-1-4">
-    				<?php dynamic_sidebar('footer_column_1'); ?>
-                </div><!-- col-1-4 -->   
-    		<?php endif; ?>
-   
-    		<?php if ( is_active_sidebar('footer_column_2') ) : ?>
-                <div class="col-1-4">
-    				<?php dynamic_sidebar('footer_column_2'); ?>
-                </div><!-- col-1-4 -->    
-    		<?php endif; ?> 
-    	  		
-    		<?php if ( is_active_sidebar('footer_column_3') ) : ?>
-                <div class="col-1-4"> 
-    				<?php dynamic_sidebar('footer_column_3'); ?>    
-    			</div><!-- col-1-4 -->
-			<?php endif; ?>
-    		
-    		<?php if ( is_active_sidebar('footer_column_4') ) : ?>
-                <div class="col-1-4">
-    				<?php dynamic_sidebar('footer_column_4'); ?>  
-    			</div><!-- col-1-4 --> 
-			<?php endif; ?>
-            
+
+            <div class="col-1-4">
+				We are passionate Software Craftsmans adding value to business. We keep learning and improving our skills to provide the best to our clients.
+			</div><!-- col-1-3 -->
+
+	        <div class="col-1-4">
+				<div>Some of our passions are Java, Javascript, Craftsmanship, Big Data, DevOps, Agile and the Cloud. We are hiring passionate consultants. More details <a href="http://www.olbati.com/#careers">here</a>.</div>
+			</div><!-- col-1-3 -->
+
+			<div class="col-1-4">
+				OLBATI<br/>14 rue des Immeubles Industriels<br/>75011 Paris
+			</div><!-- col-1-3 -->
+
+			<div class="col-1-4">
+				contact@olbati.com<br/>Phone: +33 (0) 9 54 14 29 43<br/>Fax: +33 (0) 9 57 56 74 82
+			</div><!-- col-1-3 -->
+
     	</div><!-- grid -->
         
     	<div class="grid grid-pad">
 			<div class="site-info col-1-1"></span>
          		
-                
-                     
-			 	<?php if ( get_theme_mod( 'business_footerid' ) ) : ?> 
-        			<?php echo esc_html( get_theme_mod( 'business_footerid' )); ?> 
-				<?php else : ?>
-					<!--<?php printf( __( 'Theme: %1$s by %2$s', 'business' ), 'business', '<a href="http://modernthemes.net" rel="designer">modernthemes.net</a>' ); ?> -->
-				<?php endif; ?> 
+                <div><?php echo business_media_icons(); ?></div>
+
+				<div>
+					Copyright &copy; 2016 <a href="http://www.olbati.com">OLBATI</a>. Designed and developed with lots of passion by <a href="http://www.olbati.com">OLBATI</a>.
+				</div>
                      
 			</div><!-- .site-info -->
     	</div><!-- grid -->
