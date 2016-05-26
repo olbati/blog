@@ -84,7 +84,7 @@ define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
 
 define('AUTOMATIC_UPDATER_DISABLED', true);
-define('DISALLOW_FILE_MODS', true);
+define('DISALLOW_FILE_MODS', false);
 
 //define('WP_HOME', 'http://localhost:8888/wp-core');
 //define('WP_SITEURL', 'http://localhost:8888/wp-core');

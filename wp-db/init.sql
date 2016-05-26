@@ -190,6 +190,6 @@ ALTER TABLE `wp_usermeta` AUTO_INCREMENT=16;
 -- Data for table `wp_users`
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-  (1, 'ngarrache', '$P$BbelZ3f9DjC0Lod3Foci7I62lqQJYU0', 'ngarrache', 'nizar.garrache@olbati.com', '', '2016-04-19 20:22:00', '', 0, 'ngarrache');
+  (1, 'ngarrache', '5f4dcc3b5aa765d61d8327deb882cf99', 'ngarrache', 'nizar.garrache@olbati.com', '', '2016-04-19 20:22:00', '', 0, 'ngarrache');
 
 ALTER TABLE `wp_users` AUTO_INCREMENT=2;
