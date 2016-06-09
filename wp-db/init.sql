@@ -3,13 +3,6 @@
 --
 
 
--- Data for table `wp_comments`
-
-INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
-  (1, 1, 'Monsieur WordPress', '', 'https://wordpress.org/', '', '2016-04-19 22:22:00', '2016-04-19 20:22:00', 'Bonjour, ceci est un commentaire.\nPour supprimer un commentaire, connectez-vous et affichez les commentaires de cet article. Vous pourrez alors les modifier ou les supprimer.', 0, '1', '', '', 0, 0);
-
-ALTER TABLE `wp_comments` AUTO_INCREMENT=2;
-
 -- Data for table `wp_options`
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -136,15 +129,6 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
   (1, 2, '_wp_page_template', 'default');
 
 ALTER TABLE `wp_postmeta` AUTO_INCREMENT=2;
-
--- Data for table `wp_posts`
-
-INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-  (1, 1, '2016-04-19 22:22:00', '2016-04-19 20:22:00', 'Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous&nbsp;!', 'Bonjour tout le monde&nbsp;!', '', 'publish', 'open', 'open', '', 'bonjour-tout-le-monde', '', '', '2016-04-19 22:22:00', '2016-04-19 20:22:00', '', 0, 'http://localhost:8888/wordpress/?p=1', 0, 'post', '', 1),
-  (2, 1, '2016-04-19 22:22:00', '2016-04-19 20:22:00', 'Voici un exemple de page. Elle est différente d''un article de blog, en cela qu''elle restera à la même place, et s''affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :\n\n<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et voici mon blog. J''habite à Bordeaux, j''ai un super chien baptisé Russell, et j''aime la vodka-ananas (ainsi que regarder la pluie tomber).</blockquote>\n\n...ou bien quelque chose comme ça :\n\n<blockquote>La société 123 Machin Truc a été créée en 1971, et n''a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>\n\nÉtant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href="http://localhost:8888/wordpress/wp-admin/">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !', 'Page d&rsquo;exemple', '', 'publish', 'closed', 'open', '', 'page-d-exemple', '', '', '2016-04-19 22:22:00', '2016-04-19 20:22:00', '', 0, 'http://localhost:8888/wordpress/?page_id=2', 0, 'page', '', 0),
-  (3, 1, '2016-04-19 22:22:15', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'open', 'open', '', '', '', '', '2016-04-19 22:22:15', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/wordpress/?p=3', 0, 'post', '', 0);
-
-ALTER TABLE `wp_posts` AUTO_INCREMENT=4;
 
 -- Data for table `wp_terms`
 
