@@ -45,7 +45,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
   (30, 'hack_file', '0', 'yes'),
   (31, 'blog_charset', 'UTF-8', 'yes'),
   (32, 'moderation_keys', '', 'no'),
-  (33, 'active_plugins', 'a:0:{}', 'yes'),
+  (33, 'active_plugins', 'a:1:{i:0;s:33:"custom-meta-widget/customMeta.php";}', 'yes'),
   (34, 'category_base', '', 'yes'),
   (35, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
   (36, 'comment_max_links', '2', 'yes'),
@@ -111,7 +111,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
   (96, 'widget_recent-comments', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes'),
   (97, 'widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes'),
   (98, 'widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes'),
-  (99, 'sidebars_widgets', 'a:9:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:20:"homepage-middle-left";N;s:21:"homepage-middle-right";N;s:15:"footer_column_1";N;s:15:"footer_column_2";N;s:15:"footer_column_3";N;s:15:"footer_column_4";N;s:13:"array_version";i:3;}', 'yes'),
+  (99, 'sidebars_widgets', 'a:9:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:18:"custommetawidget-4";}s:20:"homepage-middle-left";a:0:{}s:21:"homepage-middle-right";a:0:{}s:15:"footer_column_1";a:0:{}s:15:"footer_column_2";a:0:{}s:15:"footer_column_3";a:0:{}s:15:"footer_column_4";a:0:{}s:13:"array_version";i:3;}', 'yes'),
   (100, 'widget_pages', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
   (101, 'widget_calendar', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
   (102, 'widget_tag_cloud', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
@@ -126,9 +126,10 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
   (111, 'can_compress_scripts', '1', 'yes'),
   (112, 'current_theme', 'Business', 'yes'),
   (113, 'theme_mods_business', 'a:13:{i:0;b:0;s:17:"business_footerid";s:0:"";s:13:"business_logo";s:66:"http://localhost:8888/blog/wp-content/themes/business/img/logo.png";s:9:"logo_size";s:3:"160";s:7:"twitter";s:28:"https://twitter.com/OlbatiIT";s:8:"facebook";s:40:"https://www.facebook.com/olbati/?fref=ts";s:11:"google-plus";s:51:"https://plus.google.com/105063974907471691840/posts";s:5:"vimeo";s:24:"https://vimeo.com/olbati";s:17:"active_cta_bottom";s:0:"";s:8:"linkedin";s:39:"https://www.linkedin.com/company/olbati";s:8:"snapchat";s:0:"";s:6:"github";s:29:"https://www.github.com/olbati";s:10:"slideshare";s:32:"http://www.slideshare.net/olbati";}', 'yes'),
-  (114, 'theme_switched', '', 'yes');
+  (114, 'theme_switched', '', 'yes'),
+  (115, 'widget_custommetawidget', 'a:4:{i:2;a:10:{s:5:"title";s:4:"Meta";s:8:"register";s:1:"1";s:5:"login";s:1:"1";s:8:"entryrss";s:1:"1";s:10:"commentrss";s:1:"1";s:9:"wordpress";s:1:"1";s:10:"showcustom";N;s:9:"customurl";s:0:"";s:10:"customtext";s:0:"";s:8:"linklove";N;}i:3;a:10:{s:5:"title";s:5:"Méta";s:8:"register";N;s:5:"login";N;s:8:"entryrss";s:1:"1";s:10:"commentrss";s:1:"1";s:9:"wordpress";N;s:10:"showcustom";N;s:9:"customurl";s:0:"";s:10:"customtext";s:0:"";s:8:"linklove";N;}i:4;a:10:{s:5:"title";s:5:"Méta";s:8:"register";N;s:5:"login";N;s:8:"entryrss";s:1:"1";s:10:"commentrss";s:1:"1";s:9:"wordpress";N;s:10:"showcustom";N;s:9:"customurl";s:0:"";s:10:"customtext";s:0:"";s:8:"linklove";N;}s:12:"_multiwidget";i:1;}', 'yes');
 
-ALTER TABLE `wp_options` AUTO_INCREMENT=115;
+ALTER TABLE `wp_options` AUTO_INCREMENT=116;
 
 -- Data for table `wp_postmeta`
 
