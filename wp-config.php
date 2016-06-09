@@ -1,22 +1,26 @@
 <?php
 /**
- * The base configurations of the WordPress.
+ * The base configuration for WordPress
  *
- * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link https://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
- * Codex page. You can get the MySQL settings from your web host.
+ * The wp-config.php creation script uses this file during the
+ * installation. You don't have to use the web site, you can
+ * copy this file to "wp-config.php" and fill in the values.
  *
- * This file is used by the wp-config.php creation script during the
- * installation. You don't have to use the web site, you can just copy this file
- * to "wp-config.php" and fill in the values.
+ * This file contains the following configurations:
+ *
+ * * MySQL settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
  *
  * @package WordPress
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'blog');
+define('DB_NAME', 'olbatidb');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -34,7 +38,7 @@ define('DB_PORT', '8889');
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+define('DB_COLLATE', 'utf8_unicode_ci');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -59,8 +63,8 @@ define('NONCE_SALT',       'put your unique phrase here');
 /**
  * WordPress Database Table prefix.
  *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
 
@@ -70,8 +74,22 @@ $table_prefix  = 'wp_';
  * Change this to true to enable the display of notices during development.
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the Codex.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+
+define('AUTOMATIC_UPDATER_DISABLED', true);
+define('DISALLOW_FILE_MODS', false);
+
+//define('WP_HOME', 'http://localhost:8888/wp-core');
+//define('WP_SITEURL', 'http://localhost:8888/wp-core');
+define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
+define('WP_CONTENT_URL', 'http://localhost:8888/blog/wp-content');
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -81,6 +99,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
-define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content');
